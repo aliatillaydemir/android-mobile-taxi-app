@@ -1,0 +1,1070 @@
+string.xml
+
+<resources>
+    <string name="app_name">YazLab</string>
+    <string name="sorgu1">1.Sorgu</string>
+    <string name="sorgu2">2.Sorgu</string>
+    <string name="sorgu3">3.Sorgu</string>
+</resources>
+
+********************************************************************************************
+
+activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/cardview_dark_background">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sorgu1"
+            android:textSize="20sp"/>
+            
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sorgu2"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sorgu3"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+*******************************************************************************************************
+
+activity_2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="show" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="- - -"/>
+
+
+            <TextView
+                android:id="@+id/txt2_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="- - -"/>
+
+            <TextView
+                android:id="@+id/txt3_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="- - -"/>
+
+            <TextView
+                android:id="@+id/txt4_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="- - -"/>
+
+
+            <TextView
+                android:id="@+id/txt5_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="- - -"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+********************************************************************************************
+
+activity_3.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="374dp"
+            android:layout_height="88dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="374dp"
+        android:layout_height="88dp" />
+
+        <Button
+            android:id="@+id/btnumuz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="goster bakalım" />
+
+        <TextView
+            android:id="@+id/txt_showc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:hint="......................"/>
+
+        <TextView
+            android:id="@+id/txt_showc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:hint="......................"/>
+
+        <TextView
+            android:id="@+id/txt_showc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:hint="......................"/>
+
+        <TextView
+            android:id="@+id/txt_showc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:hint="......................"/>
+
+        <TextView
+            android:id="@+id/txt_showc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:hint="......................"/>
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+
+******************************************************************************************************
+
+activity_ara_class.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AraClass">
+
+    <Spinner
+        android:id="@+id/kutucuk"
+        android:layout_width="374dp"
+        android:layout_height="88dp" />
+
+    <Button
+        android:id="@+id/arabuton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="goster bakalım" />
+
+
+
+</LinearLayout>
+
+************************************************************************************************************
+
+activity_4.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="374dp"
+        android:layout_height="88dp" />
+
+</RelativeLayout>
+
+******************************************************************************************************************
+
+MainActivity.java
+
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+
+public class MainActivity extends AppCompatActivity {
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Button buton1 = (Button) this.findViewById(R.id.button1);
+        Button buton2 = (Button) this.findViewById(R.id.button2);
+        Button buton3 = (Button) this.findViewById(R.id.button3);
+
+
+
+        String tx1 = "1. butona basıldı";
+        String tx2 = "2. butona basıldı";
+        String tx3 = "3. butona basıldı";
+
+
+
+        buton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, tx1, Toast.LENGTH_LONG).show();
+                openActivity();
+            }
+        });
+
+        buton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(MainActivity.this, tx2, Toast.LENGTH_LONG).show();
+                openActivity2();
+            }
+        });
+
+        buton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(MainActivity.this, tx3, Toast.LENGTH_LONG).show();
+                openActivity3();
+            }
+        });
+
+    }
+
+    public void openActivity(){
+        Intent intent = new Intent(this, Activity2.class);
+        startActivity(intent);
+    }
+
+
+    public void openActivity2(){
+        Intent inten = new Intent(this, Activity3.class);
+        startActivity(inten);
+    }
+
+    public void openActivity3(){
+        Intent intente = new Intent(this, AraClass.class);
+        startActivity(intente);
+    }
+
+}
+
+************************************************************************************************************
+
+Activity2.java
+
+package com.example.myapplication;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class Activity2 extends AppCompatActivity {
+
+    Button btn_show;
+    TextView txt_show;
+    TextView txt2_show;
+    TextView txt3_show;
+    TextView txt4_show;
+    TextView txt5_show;
+
+    FirebaseDatabase firebaseDatabse = FirebaseDatabase.getInstance("https://yazlab-fda20-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReferenceRead;
+
+
+    private void init(){
+        btn_show = findViewById(R.id.btn_show);
+
+        txt_show = findViewById(R.id.txt_show);
+        txt2_show = findViewById(R.id.txt2_show);
+        txt3_show = findViewById(R.id.txt3_show);
+        txt4_show = findViewById(R.id.txt4_show);
+        txt5_show = findViewById(R.id.txt5_show);
+    }
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_2);
+        init();
+
+        btn_show.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                show();
+            }
+        });
+    }
+
+
+
+
+    private void show() {
+
+        ArrayList<String> mesafe = new ArrayList<>();
+        ArrayList<String> gun = new ArrayList<>();
+        ArrayList<String> gunson = new ArrayList<>();
+
+        databaseReferenceRead = firebaseDatabse.getReference();
+
+
+        ValueEventListener valueEventListener = new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+
+                    mesafe.add(dataSnapshot.child("trip_distance").getValue().toString());
+                    gun.add(dataSnapshot.child("tpep_pickup_datetime").getValue().toString());
+                    gunson.add(dataSnapshot.child("tpep_dropoff_datetime").getValue().toString());
+                }
+
+
+
+
+                int sayac1=0,sayac2=0,sayac3=0,sayac4=0,sayac5=0;
+                String dizimesafe[] = new String[mesafe.size()];
+
+
+
+
+                for(int i=0;i<mesafe.size();i++){
+                    dizimesafe[i]=mesafe.get(i);
+                }
+
+
+
+
+                 Collections.sort(mesafe, Collections.reverseOrder());
+
+                 for (int i=0;i<mesafe.size();i++)
+                 {
+                     if(mesafe.get(0).equals(dizimesafe[i]))
+                        sayac1=i;
+                     if(mesafe.get(1).equals(dizimesafe[i]))
+                         sayac2=i;
+                     if(mesafe.get(2).equals(dizimesafe[i]))
+                         sayac3=i;
+                     if(mesafe.get(3).equals(dizimesafe[i]))
+                         sayac4=i;
+                     if(mesafe.get(4).equals(dizimesafe[i]))
+                         sayac5=i;
+
+                 }
+
+                String s1=String.valueOf(sayac1);
+                String s2=String.valueOf(sayac2);
+                String s3=String.valueOf(sayac3);
+                String s4=String.valueOf(sayac4);
+                String s5=String.valueOf(sayac5);
+
+                /*
+                // txt2_show.setText(s1+" "+s2+" "+s3+" "+s4+" "+s5);
+                 txt2_show.setText(mesafe.get(0)+" "+mesafe.get(1)+" "+mesafe.get(2)+" "+mesafe.get(3)+" "+mesafe.get(4));
+
+                 txt_show.setText(gun.get(sayac1)+" -- "+gunson.get(sayac1)
+                         +gun.get(sayac2)+" -- "+gunson.get(sayac2)+"*** "+gun.get(sayac3)+" -- "+gunson.get(sayac3)+"*** "+gun.get(sayac4)+" -- "+gunson.get(sayac4)+"*** "+gun.get(sayac5)+" -- "+gunson.get(sayac5));
+
+                 */
+                txt_show.setText(mesafe.get(0)+"mil"+"-->"+gun.get(sayac1)+ " ---- "+gunson.get(sayac1));
+                txt2_show.setText(mesafe.get(1)+"mil"+"-->"+gun.get(sayac2)+" ---- "+gunson.get(sayac2));
+                txt3_show.setText(mesafe.get(2)+"mil"+"-->"+gun.get(sayac3)+" ---- "+gunson.get(sayac3));
+                txt4_show.setText(mesafe.get(3)+"mil"+"-->"+gun.get(sayac4)+" ---- "+gunson.get(sayac4));
+                txt5_show.setText(mesafe.get(4)+"mil"+"-->"+gun.get(sayac5)+" ---- "+gunson.get(sayac5));
+
+
+
+            }
+
+
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        };
+        databaseReferenceRead.addValueEventListener(valueEventListener);
+    }
+
+
+
+}
+
+*************************************************************************************************************
+
+Activity3.java
+
+package com.example.myapplication;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Activity3 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    private Spinner spinner;
+    private Spinner spinner2;
+
+    Button btn;
+
+    TextView txt_showc;
+    TextView txt_showc2;
+    TextView txt_showc3;
+    TextView txt_showc4;
+    TextView txt_showc5;
+
+    FirebaseDatabase firebaseDatabse = FirebaseDatabase.getInstance("https://yazlab-fda20-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReferenceRead;
+
+
+    private static final String[] paths = {"5.gün", "6.gün", "7.gün", "8.gün", "9.gün", "10.gün", "11.gün", "12.gün",
+            "13.gün", "14.gün", "15.gün", "16.gün", "17.gün", "18.gün", "19.gün", "20.gün"};
+
+    private static final String[] paths2 = {"5.gün", "6.gün", "7.gün", "8.gün", "9.gün", "10.gün", "11.gün", "12.gün",
+            "13.gün", "14.gün", "15.gün", "16.gün", "17.gün", "18.gün", "19.gün", "20.gün"};
+
+    int birincitx;
+    int ikincitx;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_3);
+
+        txt_showc = findViewById(R.id.txt_showc);
+        txt_showc2 = findViewById(R.id.txt_showc2);
+        txt_showc3 = findViewById(R.id.txt_showc3);
+        txt_showc4 = findViewById(R.id.txt_showc4);
+        txt_showc5 = findViewById(R.id.txt_showc5);
+
+        btn=findViewById(R.id.btnumuz);
+
+        spinner = (Spinner)findViewById(R.id.spinner);
+        ArrayAdapter<String>adapter = new ArrayAdapter<String>(Activity3.this,
+                android.R.layout.simple_spinner_item,paths);
+
+        spinner2 = (Spinner)findViewById(R.id.spinner2);
+        ArrayAdapter<String>adapter2 = new ArrayAdapter<String>(Activity3.this,
+                android.R.layout.simple_spinner_item,paths2);
+
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner2.setAdapter(adapter2);
+        spinner2.setOnItemSelectedListener(this);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                show();
+            }
+        });
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
+        if (parent.getId() == R.id.spinner) {
+            //do this
+
+            switch (position) {
+
+
+                case 0:
+                    birincitx=0; //buralara gün için index tut. butona basma kısmında onlar işlenip sonuç verecek.
+                    break;
+                case 1:
+                    birincitx=100;
+                    break;
+                case 2:
+                    birincitx=200;
+                    break;
+                case 3:
+                    birincitx=300;
+                    break;
+                case 4:
+                    birincitx=400;
+                    break;
+                case 5:
+                    birincitx=500;
+                    break;
+                case 6:
+                    birincitx=600;
+                    break;
+                case 7:
+                    birincitx=700;
+                    break;
+                case 8:
+                    birincitx=800;
+                    break;
+                case 9:
+                    birincitx=900;
+                    break;
+                case 10:
+                    birincitx=1000;
+                    break;
+                case 11:
+                    birincitx=1100;
+                    break;
+                case 12:
+                    birincitx=1200;
+                    break;
+                case 13:
+                    birincitx=1300;
+                    break;
+                case 14:
+                    birincitx=1400;
+                    break;
+                case 15:
+                    birincitx=1500;
+                    break;
+
+            }
+        }
+
+        if (parent.getId() == R.id.spinner2){
+            //do this
+
+            switch (position) {
+                case 0:
+                    ikincitx=100; //buralara gün için index tut. butona basma kısmında onlar işlenip sonuç verecek.
+                    break;
+                case 1:
+                    ikincitx=200;
+                    break;
+                case 2:
+                    ikincitx=300;
+                    break;
+                case 3:
+                    ikincitx=400;
+                    break;
+                case 4:
+                    ikincitx=500;
+                    break;
+                case 5:
+                    ikincitx=600;
+                    break;
+                case 6:
+                    ikincitx=700;
+                    break;
+                case 7:
+                    ikincitx=800;
+                    break;
+                case 8:
+                    ikincitx=900;
+                    break;
+                case 9:
+                    ikincitx=1000;
+                    break;
+                case 10:
+                    ikincitx=1100;
+                    break;
+                case 11:
+                    ikincitx=1200;
+                    break;
+                case 12:
+                    ikincitx=1300;
+                    break;
+                case 13:
+                    ikincitx=1400;
+                    break;
+                case 14:
+                    ikincitx=1500;
+                    break;
+                case 15:
+                    ikincitx=1600;
+                    break;
+
+            }
+        }
+
+
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+        // TODO Auto-generated method stub
+    }
+
+    private void show()
+        {
+            ArrayList<String> distance = new ArrayList<>();
+            ArrayList<String> liste = new ArrayList<>();
+
+            databaseReferenceRead = firebaseDatabse.getReference();
+
+
+            ValueEventListener valueEventListener = new ValueEventListener(){
+
+
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                    for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+                        distance.add(dataSnapshot.child("trip_distance").getValue().toString());
+                    }
+
+                    for (int i=birincitx;i<ikincitx;i++)
+                    {
+                        if(distance.get(i).equals(".00"))
+                            break;
+                            liste.add(distance.get(i));
+
+                    }
+
+                    Collections.sort(liste);
+
+                    txt_showc.setText("en kısa 1.yol: "+String.valueOf(liste.get(0)));
+                    txt_showc2.setText(String.valueOf("en kısa 2.yol: "+liste.get(1)));
+                    txt_showc3.setText(String.valueOf("en kısa 3.yol: "+liste.get(2)));
+                    txt_showc4.setText(String.valueOf("en kısa 4.yol: "+liste.get(3)));
+                    txt_showc5.setText(String.valueOf("en kısa 5.yol: "+liste.get(4)));
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            };
+
+
+            databaseReferenceRead.addValueEventListener(valueEventListener);
+        }
+
+
+
+}
+
+************************************************************************************************************
+
+AraClass.java
+
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+public class AraClass extends AppCompatActivity {
+
+    Button but;
+    Spinner kutu;
+    static int kontrol;
+
+
+
+    private static final String[] path = {"5.gün", "6.gün", "7.gün", "8.gün", "9.gün", "10.gün", "11.gün", "12.gün",
+            "13.gün", "14.gün", "15.gün", "16.gün", "17.gün", "18.gün", "19.gün", "20.gün"};
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ara_class);
+
+        but= findViewById(R.id.arabuton);
+
+        kutu=(Spinner)findViewById(R.id.kutucuk);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(AraClass.this,
+                android.R.layout.simple_spinner_item,path);
+
+        kutu.setAdapter(adapter);
+
+        kutu.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (parent.getId() == R.id.kutucuk) {
+                    switch (position) {
+
+                        case 0:
+                            kontrol=0;
+                            break;
+
+                        case 1:
+                            kontrol=1;
+                            break;
+
+                        case 2:
+                            kontrol=2;
+                            break;
+
+                        case 3:
+                            kontrol=3;
+                            break;
+
+                        case 4:
+                            kontrol=4;
+                            break;
+
+                        case 5:
+                            kontrol=5;
+                            break;
+
+                        case 6:
+                            kontrol=6;
+                            break;
+
+                        case 7:
+                            kontrol=7;
+                            break;
+
+                        case 8:
+                            kontrol=8;
+                            break;
+
+                        case 9:
+                            kontrol=9;
+                            break;
+
+                        case 10:
+                            kontrol=10;
+                            break;
+
+                        case 11:
+                            kontrol=11;
+                            break;
+
+                        case 12:
+                            kontrol=12;
+                            break;
+
+                        case 13:
+                            kontrol=13;
+                            break;
+
+                        case 14:
+                            kontrol=14;
+                            break;
+
+                        case 15:
+                            kontrol=15;
+                            break;
+                    }
+
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+
+        but.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                open();
+            }
+        });
+
+    }
+
+    public void open(){
+        Intent intentee = new Intent(this, Activity4.class);
+        startActivity(intentee);
+    }
+
+
+
+
+}
+
+*********************************************************************************************************************
+
+Activity4.java
+
+package com.example.myapplication;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polygon;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Activity4 extends FragmentActivity implements OnMapReadyCallback {
+
+    GoogleMap mapApi;
+    SupportMapFragment mapFragment;
+
+
+    AraClass cl = new AraClass();
+    double enbuyuk=0;
+    static double d1x,d2y,d1y,d2x;
+    static int sayac=0;
+    int lati;
+    int langi;
+
+    FirebaseDatabase fireDatabase = FirebaseDatabase.getInstance("https://yazlab-fda20-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseRefRead;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_4);
+
+
+        databaseRefRead = fireDatabase.getReference();
+
+        ArrayList<String> trip_dist = new ArrayList<>();
+        ArrayList<String> pul = new ArrayList<>();
+        ArrayList<String> dol = new ArrayList<>();
+        ArrayList<String> lat = new ArrayList<>();
+        ArrayList<String> lang = new ArrayList<>();
+        List<Double> ds = new ArrayList<Double>();
+
+        ValueEventListener valueEventListener = new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+
+                    trip_dist.add(dataSnapshot.child("trip_distance").getValue().toString());
+                    pul.add(dataSnapshot.child("PULocationID").getValue().toString());
+                    dol.add(dataSnapshot.child("DOLocationID").getValue().toString());
+                    lat.add(dataSnapshot.child("latitude").getValue().toString());
+                    lang.add(dataSnapshot.child("longitude").getValue().toString());
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        };
+
+/*
+        double[] dizi = new double[trip_dist.size()];
+        int syc=0;
+
+        for (String d : trip_dist) {
+            // Apply formatting to the string if necessary
+            ds.add(Double.parseDouble(d));
+            dizi[syc]=ds.get(syc);
+            syc++;
+        }
+
+        for(int i=cl.kontrol*100;i<(cl.kontrol*100)+100;i++)       // en buyuk mesafe hangi indexte bulunur.
+        {
+            if(dizi[i]>enbuyuk) {
+                //enbuyuk= Double.parseDouble(trip_dist.get(i));
+                sayac = i;
+            }
+        }
+
+        lati=(Integer.parseInt(pul.get(sayac)))-2;
+        langi=(Integer.parseInt(dol.get(sayac)))-2;
+
+        d1x=Double.parseDouble(lat.get(lati));
+        d1y=Double.parseDouble(lang.get(lati));
+
+        d2x=Double.parseDouble(lat.get(langi));
+        d2y=Double.parseDouble(lang.get(langi));
+
+*/
+        mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
+        mapFragment.getMapAsync(this);
+
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+
+
+        mapApi = googleMap;
+
+
+        LatLng sehir1 = new LatLng(0 + 40.6781247, 0 + -73.79166546);
+        LatLng sehir2 = new LatLng(0 + 40.60750422, 0 + -74.15944329);
+
+
+  //      LatLng sehir1 = new LatLng(0 + d1x, 0 + d1y);
+//        LatLng sehir2 = new LatLng(0 + d2x, 0 + d2y);
+
+
+        mapApi.addMarker(new MarkerOptions().position(sehir1).title("ilk sehir"));
+        mapApi.addMarker(new MarkerOptions().position(sehir2).title("ikinci sehir"));
+        mapApi.moveCamera(CameraUpdateFactory.newLatLng(sehir1));
+        Polyline polyline1 = googleMap.addPolyline(new PolylineOptions()
+                .clickable(true)
+                .add(
+                        sehir1,
+                        sehir2
+                        // new LatLng(-34.747, 145.592),
+                        // new LatLng(-34.364, 147.891),
+                        // new LatLng(-33.501, 150.217),
+                        // new LatLng(-32.306, 149.248),
+                        // new LatLng(-32.491, 147.309)));
+                ));
+        // Position the map's camera near Alice Springs in the center of Australia,
+        // and set the zoom factor so most of Australia shows on the screen.
+        //  googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-23.684, 133.903), 4));
+
+        // Set listeners for click events.
+        // googleMap.setOnPolylineClickListener(this);
+        // googleMap.setOnPolygonClickListener(this);
+
+
+
+    }
+}

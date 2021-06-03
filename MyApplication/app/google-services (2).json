@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556141427985",
+    "project_id": "yazlab-fda20",
+    "storage_bucket": "yazlab-fda20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556141427985:android:d7d354ee207f5d1e1d60b0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556141427985-o418eqg95o9n2caos5gh2uqe5sb1onng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuTPAfGPykPYosVA28pDIy-2JiW04FYDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556141427985-o418eqg95o9n2caos5gh2uqe5sb1onng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
